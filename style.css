@@ -50,7 +50,12 @@ body{
     font-size: 1.2rem;
     cursor: pointer;
     margin: 1rem;
+    border: none;
+    transition: transform 0.3s ease;
+}
 
+.generate:active{
+    transform: scale(0.9);
 }
 
 .load{
