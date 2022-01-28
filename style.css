@@ -9,24 +9,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #D8D4F2; */
     background-color: #c9b6d8;
 }
 
 .container{
-    /* border: 2px solid black; */
     min-height: 40vh;
     width: 70%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    /* font-family: cursive; */
-    /* font-family: 'Dancing Script', cursive; */
     font-family: 'Caveat', cursive;
     font-size: 2rem;
     font-weight: 700;
-    /* background-color: #c4b2bc; */
     background-color: #f6cadc;
     color: #0a0f49;
 }
@@ -61,7 +56,6 @@ body{
 .load{
     height: 100px;
     width: 100px;
-    /* border: 16px solid gainsboro; */
     border: 16px solid  #c9b6d8;
     border-top:16px solid #141e8d;
     border-radius: 50%;

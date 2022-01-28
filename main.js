@@ -13,11 +13,9 @@ generateBtn.addEventListener("click", () => {
     if(this.readyState<4){
         quote.innerText="";
         quote.appendChild(load);
-        console.log(load);
     }
     else{
         load.remove();
-        console.log(JSON.parse(this.responseText));
         let m=JSON.parse(this.responseText);
         quote.innerHTML=` 
         <p>${m.content}</p>
