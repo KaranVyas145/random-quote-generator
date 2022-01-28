@@ -29,7 +29,7 @@ generateBtn.addEventListener("click", () => {
   xhr.setRequestHeader("x-rapidapi-host", "quotes15.p.rapidapi.com");
   xhr.setRequestHeader(
     "x-rapidapi-key",
-    "1abdd5d695msh42a436d013755f6p1c8ca8jsn1b65b7a531be"
+    `${api.key}`
   );
 
   xhr.send(data);
